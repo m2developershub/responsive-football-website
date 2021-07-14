@@ -1,5 +1,8 @@
+/* ************************* 
+  !!!!! google fonts import  !!!!!
+      ******************************* */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Niconne&display=swap");
 /*-----------------------------
     common styles or utilities
   ----------------------------------- */
@@ -97,7 +100,7 @@ main area start here
             players section start here
       -------------------------------------------------  */
 .container .players {
-  width: 84%;
+  width: 79%;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -107,6 +110,7 @@ main area start here
   background-color: #f3f3f3;
   box-shadow: 0px 0px 5px 0px rgba(15, 15, 15, 0.15);
   margin-top: 70px;
+  padding: 2px 0;
 }
 
 .player-blogs {
@@ -144,4 +148,84 @@ main area start here
   background-color: rgba(220, 220, 220, 0.493);
   color: gray;
   padding: 3px 10px;
+}
+
+/* ********************************************************
+        Highlights info area start here
+    **************************************************** */
+.highlights-area {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.highlights-area .higlights-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 79%;
+  margin: auto;
+}
+.higlights-details .highlights-info {
+  width: 470px;
+  height: 310px;
+  padding-right: 35px;
+}
+.higlights-details .highlights-info h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+}
+.higlights-details .highlights-info p {
+  font-size: 16px;
+  line-height: 28px;
+  color: #6c6c6c;
+}
+.higlights-details .highlights-info a {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #e02c6d;
+  font-size: 16px;
+  padding: 10px 25px;
+  display: inline-block;
+}
+.higlights-details .highlights-img {
+  padding-left: 35px;
+}
+.higlights-details .highlights-img img {
+  width: 570px;
+  height: 430px;
+}
+/* ***********************************
+        **footer area start here** 
+    ****************************************** */
+
+.footer-info {
+  display: grid;
+  justify-items: center;
+}
+/* .footer-info .footer-logo {
+  margin-bottom: 50px;
+} */
+.footer-logo img {
+  width: 390px;
+}
+.footer-info .footer-social-ico {
+  justify-self: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.footer-info .footer-social-ico a i {
+  /* background-color: #0b0d17; */
+  width: 16px;
+  height: 16px;
+  color: #969bab;
+  background-color: #0b0d172a;
+  margin: 0 8px;
+  padding: 16px;
+  border-radius: 50%;
+}
+.footer-copyright p {
+  font-size: 18px;
+  line-height: 24px;
 }
